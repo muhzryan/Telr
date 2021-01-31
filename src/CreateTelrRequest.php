@@ -4,8 +4,8 @@ namespace TelrGateway;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Ramsey\Uuid\Uuid;
-use Arr;
-use Str;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 
 class CreateTelrRequest extends AbstractTelrRequest implements Arrayable
 {
